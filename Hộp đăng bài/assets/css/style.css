@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+#addPost {
+  width: 500px;
+  height: auto;
+  background-color: #04192d;
+  color: white;
+  border-radius: 10px;
+  border: solid;
+  border-color: #04192d;
+  border-width: 4px;
+}
+
+#addPost .header {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid;
+  border-color: white;
+  border-bottom-width: 2px;
+  height: 50px;
+}
+
+#addPost .header p {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#addPost .header i {
+  position: absolute;
+  right: 5px;
+  padding: 10px;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#addPost .header i:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+/*Thông tin người dùng*/
+#addPost .userInfo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+#addPost .userInfo img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+}
+
+#addPost .userInfo p {
+  margin-left: 10px;
+}
+
+#addPost .textBody textarea {
+  background-color: #082744;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+/*Post tools*/
+#addPost .postTool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+#addPost .postTool p {
+  font-weight: 600;
+}
+
+#addPost .tools {
+  font-size: 24px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#addPost .tools i {
+  cursor: pointer;
+}
+
+#addPost .tools i:hover {
+  color: lightgray;
+}
+
+/* Nút đăng bài*/
+#addPost .addPost-btn {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: #082744;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 10px 10px;
+  background-color: rgb(23, 83, 139);
+  cursor: pointer;
+}
+
+#addPost .addPost-btn:hover {
+  background-color: rgba(23, 83, 139, 0.7);
+}
+
+#addPost .addPost-btn p {
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+}
