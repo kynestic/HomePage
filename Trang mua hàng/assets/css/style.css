@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+#inCart {
+  background-color: #04192d;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  padding: 10px;
+  max-width: 575px;
+}
+
+#inCart .cartContent {
+  display: flex;
+}
+
+#inCart .header {
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  margin-bottom: 10px;
+}
+
+#inCart .header i {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#inCart .header i:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+#inCart .gameList {
+  display: inline-block;
+}
+
+#inCart .gameList .game {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#inCart .gameList .game img {
+  width: auto;
+  height: 80px;
+}
+
+#inCart .gameList .game .gameintro {
+  position: relative;
+  margin: 10px 20px;
+}
+
+#inCart .gameList .game .gameintro .gameName {
+  margin-bottom: 20px;
+}
+
+#inCart .gameList .game .gameintro .gamedetail {
+  margin-bottom: 60px;
+}
+
+#inCart .gameList .game .gameintro .gameprice {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+}
+
+#inCart .gameList .game .gameintro .gameprice i {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#inCart .gameList .game .gameintro .gameprice i:hover {
+  color: gray;
+}
+
+#inCart .gameList .game .removeGame {
+  position: absolute;
+  right: -3px;
+  top: -2px;
+  bottom: -2px;
+  display: flex;
+  align-items: center;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  border-left-width: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(218, 65, 65);
+}
+
+#inCart .gameList .game .removeGame i {
+  padding: 64px 5px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+#inCart .gameList .game .removeGame:hover {
+  background-color: rgb(219, 92, 92);
+}
+
+#inCart .summary {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #fff;
+  color: white;
+  width: 250px;
+  height: 200px;
+  margin: 0 5px;
+  padding: 10px;
+}
+
+#inCart .summary .header-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid;
+  padding: 5px;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  margin-bottom: 10px;
+}
+
+#inCart .summary .price {
+  position: relative;
+  display: flex;
+}
+
+#inCart .summary .content-cart .item-cart {
+  padding: 5px 0;
+}
+
+#inCart .summary .content-cart .itemPrice-Cart {
+  position: absolute;
+  left: 160px;
+}
+
+#inCart .summary .totalCost-Cart {
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+}
+
+#inCart .summary .totalCost {
+  position: absolute;
+  left: 160px;
+}
+
+#inCart .summary .purchase {
+  background-color: rgb(23, 83, 139);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 7.5px;
+  padding: 7.5px;
+  cursor: pointer;
+}
+
+#inCart .summary .purchase:hover {
+  background-color: rgba(23, 83, 139, 0.7);
+}
